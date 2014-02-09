@@ -1,0 +1,29 @@
+{
+  "name": "svg-curvy",
+  "version": "0.1.0-beta.1",
+  "description": "Build and edit curves with SVG",
+  "main": "scripts/js/lib/SvgCurvy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node ./node_modules/coffee-script/bin/cake build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pouriaMaleki/SvgCurvy.git"
+  },
+  "keywords": [
+    "DOM",
+    "Style"
+  ],
+  "author": "pouriaMaleki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pouriaMaleki/SvgCurvy/issues"
+  },
+  "dependencies": {
+    "stupid-dom-interface": "0.1.0-beta.10"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
